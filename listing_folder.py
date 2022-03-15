@@ -3,6 +3,7 @@ import subprocess
 import glob
 import re
 from natsort import natsorted
+import start
 
 class DisplayMenu:
     def years_sort(self):
@@ -42,14 +43,14 @@ class DisplayMenu:
 
 
     def choose_car(self):
-        #t.cars_sort()
-        choose = input("Wybierz numer pojazdu: ")
-        if choose == '1':
-            print(s[0])
+        os.chdir("/home/btn/PycharmProjects/pojazdy/")
+        print(os.getcwd())
+        #os.system('start.py')
+        start.asd()
 
 
 t = DisplayMenu()
-t.years_sort()                                                                      #OK
+#t.years_sort()                                                                      #OK
 t.choose_year()
 #t.cars_sort()                                                                      #OK
 #t.choose_car()
