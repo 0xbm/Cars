@@ -46,7 +46,7 @@ class DisplayMenu:
         os.chdir("/home/btn/PycharmProjects/pojazdy/")
         print(os.getcwd())
         #os.system('start.py')
-        months.asd()
+        months.choose()
 
 
 t = DisplayMenu()
