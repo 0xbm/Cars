@@ -3,7 +3,7 @@ import subprocess
 import glob
 import re
 from natsort import natsorted
-import start
+import months
 
 class DisplayMenu:
     def years_sort(self):
@@ -46,7 +46,7 @@ class DisplayMenu:
         os.chdir("/home/btn/PycharmProjects/pojazdy/")
         print(os.getcwd())
         #os.system('start.py')
-        start.asd()
+        months.asd()
 
 
 t = DisplayMenu()

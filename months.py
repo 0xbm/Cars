@@ -1,17 +1,23 @@
-import start
+def asd():
+    import start
 
-mth = start.ws['C5']
-choose = input("Choose month from 1-12: ")
+    mth = start.ws['C5']
+    choose = input("Choose month from 1-12: ")
 
-if choose == '1':
-    ws1 = start.wb['styczen']
-    print(f"Wybrales {ws1}")
-    x = input(f"{mth.value} odometer start: ")
-    ws1['E7'] = int(x)
-    y = input(f"{mth.value} odometer end: ")
-    ws1['E8'] = int(y)
-    z = input(f"{mth.value} fuel start: ")
-    ws1['E10'] = int(z)
+    if choose == '1':
+        ws1 = start.wb['styczen']
+        print(f"Wybrales {ws1}")
+        x = input(f"{mth.value} odometer start: ")
+        ws1['E7'] = int(x)
+        y = input(f"{mth.value} odometer end: ")
+        ws1['E8'] = int(y)
+        z = input(f"{mth.value} fuel start: ")
+        ws1['E10'] = int(z)
+
+    start.wb.save("test.xlsx")
+
+
+'''
 elif choose == '2':
     mth = start.ws['C5']
     ws2 = start.wb['luty']
@@ -57,8 +63,8 @@ elif choose == '12':
     ws12 = start.wb['grudzien']
     x = input(f"{mth.value} odometer end: ")
     ws12['E8'] = int(x)
-
-start.wb.save("test.xlsx")
+'''
+#start.wb.save("test.xlsx")
 #import dat
 
 
