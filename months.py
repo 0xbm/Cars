@@ -4,8 +4,8 @@ def choose():
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
-        ws1 = start.wb['styczen']
-        sheet = start.wb.get_sheet_by_name('styczen')
+        ws1 = start.wb1['styczen']
+        sheet = start.wb1.get_sheet_by_name('styczen')
         #print(f"Wybrales {mth.value}")
         x = input(f"{sheet.title} odometer start: ")
         ws1['E7'] = int(x)
@@ -13,6 +13,7 @@ def choose():
         ws1['E8'] = int(y)
         z = input(f"{sheet.title} fuel start: ")
         ws1['E10'] = int(z)
+        start.wb1.save("test.xlsx")
     elif choose == '2':
         #mth = start.ws['C5']
         ws2 = start.wb['luty']
@@ -20,6 +21,7 @@ def choose():
         print(f"Wybrales {sheet.title}")
         x = input(f"{sheet.title} odometer end: ")
         ws2['E8'] = int(x)
+        start.wb.save("test.xlsx")
     elif choose == '3':
         ws3 = start.wb['marzec']
         sheet = start.wb.get_sheet_by_name('marzec')
@@ -81,7 +83,7 @@ def choose():
         x = input(f"{sheet.title} odometer end: ")
         ws12['E8'] = int(x)
 
-    start.wb.save("test.xlsx")
+    #start.wb1.save("test.xlsx")
 
 
 

@@ -1,9 +1,10 @@
 import os
-import subprocess
 import glob
 import re
 from natsort import natsorted
 import months
+import start
+from openpyxl import Workbook, load_workbook
 
 class DisplayMenu:
     def years_sort(self):
@@ -28,7 +29,6 @@ class DisplayMenu:
             os.chdir("/home/btn/PycharmProjects/pojazdy/2023")
             t.cars_sort()
 
-
     def cars_sort(self):
         path = (os.getcwd())
         print(path)
@@ -36,11 +36,15 @@ class DisplayMenu:
         p = re.compile(r".*(/2022/|/2023/)")
         s = natsorted([p.sub('', x).strip() for x in files])
         print(s)
-        #choose = input("Wybierz numer pojazdu: ")
-        #if choose == '1':
-        #    print(s[0])
+        choose = input("Wybierz numer pojazdu: ")
+        if choose == '1':
+            print("Wybrales: ", s[0])
+            wb = load_workbook('1.FORD COURIER.xlsx')
+        if choose == '2':
+            print("Wybrales: ", s[1])
+            wb1 = load_workbook("2.SKODA FABIA.xlsx")
+            #start.skoda()
         t.choose_car()
-
 
     def choose_car(self):
         os.chdir("/home/btn/PycharmProjects/pojazdy/")
