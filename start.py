@@ -1,7 +1,7 @@
 from openpyxl import Workbook, load_workbook
 import os
 
-os.chdir("/home/btn/PycharmProjects/pojazdy/2022")
+os.chdir("/Users/btn/PycharmProjects/pojazdy/2022")
 #print(os.getcwd())
 wb = load_workbook('1.FORD COURIER.xlsx')
 wb1 = load_workbook("2.SKODA FABIA.xlsx")

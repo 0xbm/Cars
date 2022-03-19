@@ -1,6 +1,5 @@
 def choose():
     import start
-
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':

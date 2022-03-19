@@ -3,7 +3,7 @@ import glob
 import re
 from natsort import natsorted
 import months
-import start
+#import start
 from openpyxl import Workbook, load_workbook
 
 class DisplayMenu:
@@ -23,10 +23,10 @@ class DisplayMenu:
     def choose_year(self):
         choose = input("Choose year 1.2022, 2.2023: ")
         if choose == "1":
-            os.chdir("/home/btn/PycharmProjects/pojazdy/2022")
+            os.chdir("/Users/btn/PycharmProjects/pojazdy/2022")
             t.cars_sort()
         if choose == "2":
-            os.chdir("/home/btn/PycharmProjects/pojazdy/2023")
+            os.chdir("/Users/btn/PycharmProjects/pojazdy/2023")
             t.cars_sort()
 
     def cars_sort(self):
@@ -47,7 +47,7 @@ class DisplayMenu:
         t.choose_car()
 
     def choose_car(self):
-        os.chdir("/home/btn/PycharmProjects/pojazdy/")
+        os.chdir("/Users/btn/PycharmProjects/pojazdy/")
         print(os.getcwd())
         #os.system('start.py')
         months.choose()
