@@ -3,6 +3,7 @@ import glob
 import re
 from natsort import natsorted
 import months
+#import skoda
 #import start
 from openpyxl import Workbook, load_workbook
 
@@ -40,17 +41,21 @@ class DisplayMenu:
         if choose == '1':
             print("Wybrales: ", s[0])
             wb = load_workbook('1.FORD COURIER.xlsx')
+            months.ford()
+            #t.choose_car()
         if choose == '2':
             print("Wybrales: ", s[1])
-            wb1 = load_workbook("2.SKODA FABIA.xlsx")
+            wb = load_workbook("2.SKODA FABIA.xlsx")
+            months.skoda()
+            #t.choose_car()
             #start.skoda()
-        t.choose_car()
+        #t.choose_car()
 
     def choose_car(self):
-        os.chdir("/Users/btn/PycharmProjects/pojazdy/")
+        os.chdir("/Users/btn/PycharmProjects/pojazdy")
         print(os.getcwd())
         #os.system('start.py')
-        months.choose()
+        months.ford()
 
 
 t = DisplayMenu()
@@ -58,10 +63,6 @@ t = DisplayMenu()
 t.choose_year()
 #t.cars_sort()                                                                      #OK
 #t.choose_car()
-
-##################################TO_DO
-#
-
 
 
 '''
