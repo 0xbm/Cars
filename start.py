@@ -2,11 +2,11 @@ from openpyxl import Workbook, load_workbook
 import os
 
 os.chdir("/Users/btn/PycharmProjects/pojazdy/2022")
-#print(os.getcwd())
-wb = load_workbook('1.FORD COURIER.xlsx')
+
+wb = load_workbook("1.FORD COURIER.xlsx")
 wb1 = load_workbook("2.SKODA FABIA.xlsx")
-#wb2 = load_workbook("3.SKODA FABIA 2.xlsx")
-#wb3 = load_workbook("4.FIAT PANDA.xlsx")
+wb2 = load_workbook("3.SKODA FABIA 2.xlsx")
+wb3 = load_workbook("4.FIAT PANDA.xlsx")
 
 '''
 wb4 = load_workbook("5.CITROEN JUMPER.xlsx")
@@ -20,12 +20,3 @@ wb11 = load_workbook("12.UNIMOG.xlsx")
 wb12 = load_workbook("13.UNIMOG 2.xlsx")
 wb13 = load_workbook("14.NOREMAT.xlsx")
 '''
-'''
-def ford():
-    wb = load_workbook('1.FORD COURIER.xlsx')
-    ws = wb.active
-def skoda():
-    wb = load_workbook("2.SKODA FABIA.xlsx")
-    ws = wb.active
-'''
-#ws = wb['styczen']

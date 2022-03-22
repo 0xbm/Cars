@@ -22,7 +22,7 @@ class DisplayMenu:
         print([p.sub("", x) for x in folders])
 
     def choose_year(self):
-        choose = input("Choose year 1.2022, 2.2023: ")
+        choose = input("Choose year from 1.2022, 2.2023: ")
         if choose == "1":
             os.chdir("/Users/btn/PycharmProjects/pojazdy/2022")
             t.cars_sort()
@@ -37,16 +37,23 @@ class DisplayMenu:
         p = re.compile(r".*(/2022/|/2023/)")
         s = natsorted([p.sub('', x).strip() for x in files])
         print(s)
-        choose = input("Wybierz numer pojazdu: ")
+        choose = input("Select vehicle number: ")
         if choose == '1':
-            print("Wybrales: ", s[0])
+            print("You selected: ", s[0])
             wb = load_workbook('1.FORD COURIER.xlsx')
-            months.ford()
-            #t.choose_car()
+            months.ford_completing()
         if choose == '2':
-            print("Wybrales: ", s[1])
+            print("You selected: ", s[1])
             wb = load_workbook("2.SKODA FABIA.xlsx")
-            months.skoda()
+            months.skoda_completing()
+        if choose == '3':
+            print("You selected: ", s[1])
+            wb = load_workbook("3 SKODA FABIA 2.xlsx")
+            months.skoda_2_completing()
+        if choose == '4':
+            print("You selected: ", s[1])
+            wb = load_workbook("4 FIAT PANDA.xlsx")
+            months.fiat_completing()
             #t.choose_car()
             #start.skoda()
         #t.choose_car()
@@ -55,7 +62,7 @@ class DisplayMenu:
         os.chdir("/Users/btn/PycharmProjects/pojazdy")
         print(os.getcwd())
         #os.system('start.py')
-        months.ford()
+        months.ford_completing()
 
 
 t = DisplayMenu()
