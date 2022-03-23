@@ -66,7 +66,7 @@ class DisplayMenu:
         if choose == '7':
             print("You selected: ", s[6])
             wb = load_workbook("7.FORD TRANSIT.xlsx")
-            months.ford_completing()
+            months.ford_2_completing()
         if choose == '8':
             print("You selected: ", s[7])
             wb = load_workbook("8.FORD TRANSIT LEASING.xlsx")

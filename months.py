@@ -502,7 +502,7 @@ def daewoo_completing():
     start.wb5.save("6.DAEWOO LUBLIN.xlsx")
 
 
-def ford_completing():
+def ford_2_completing():
     import start
     choose = input("Choose month from 1-12: ")
 
