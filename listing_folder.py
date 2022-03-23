@@ -47,15 +47,54 @@ class DisplayMenu:
             wb = load_workbook("2.SKODA FABIA.xlsx")
             months.skoda_completing()
         if choose == '3':
-            print("You selected: ", s[1])
-            wb = load_workbook("3 SKODA FABIA 2.xlsx")
+            print("You selected: ", s[2])
+            wb = load_workbook("3.SKODA FABIA 2.xlsx")
             months.skoda_2_completing()
         if choose == '4':
-            print("You selected: ", s[1])
-            wb = load_workbook("4 FIAT PANDA.xlsx")
+            print("You selected: ", s[3])
+            wb = load_workbook("4.FIAT PANDA.xlsx")
             months.fiat_completing()
             #t.choose_car()
-            #start.skoda()
+        if choose == '5':
+            print("You selected: ", s[4])
+            wb = load_workbook("5.CITROEN JUMPER.xlsx")
+            months.citroen_completing()
+        if choose == '6':
+            print("You selected: ", s[5])
+            wb = load_workbook("6.DAEWOO LUBLIN.xlsx")
+            months.daewoo_completing()
+        if choose == '7':
+            print("You selected: ", s[6])
+            wb = load_workbook("7.FORD TRANSIT.xlsx")
+            months.ford_completing()
+        if choose == '8':
+            print("You selected: ", s[7])
+            wb = load_workbook("8.FORD TRANSIT LEASING.xlsx")
+            months.ford_leasing_completing()
+        if choose == '9':
+            print("You selected: ", s[8])
+            wb = load_workbook("9.FARMTARAC.xlsx")
+            months.farmtrac_completing()
+        if choose == '10':
+            print("You selected: ", s[9])
+            wb = load_workbook("10.URSUS.xlsx")
+            months.ursus_completing()
+        if choose == '11':
+            print("You selected: ", s[10])
+            wb = load_workbook("11.TYM.xlsx")
+            months.tym_completing()
+        if choose == '12':
+            print("You selected: ", s[11])
+            wb = load_workbook("12.UNIMOG.xlsx")
+            months.unimog_completing()
+        if choose == '13':
+            print("You selected: ", s[11])
+            wb = load_workbook("13.UNIMOG_2.xlsx")
+            months.unimog_2_completing()
+        if choose == '14':
+            print("You selected: ", s[11])
+            wb = load_workbook("14.NOREMAT.xlsx")
+            months.noremat_completing()
         #t.choose_car()
 
     def choose_car(self):
