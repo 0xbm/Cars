@@ -73,7 +73,7 @@ class DisplayMenu:
             months.ford_leasing_completing()
         if choose == '9':
             print("You selected: ", s[8])
-            wb = load_workbook("9.FARMTARAC.xlsx")
+            wb = load_workbook("9.FARMTRAC.xlsx")
             months.farmtrac_completing()
         if choose == '10':
             print("You selected: ", s[9])
