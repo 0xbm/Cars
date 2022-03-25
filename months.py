@@ -1,7 +1,8 @@
-def ford_completing():
-    import start
-    choose = input("Choose month from 1-12: ")
+import start
 
+
+def ford_completing():
+    choose = input("Choose month from 1-12: ")
     if choose == '1':
         ws1 = start.wb['styczen']
         sheet = start.wb.get_sheet_by_name('styczen')
@@ -17,7 +18,6 @@ def ford_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws2['E8'] = int(x)
-        start.wb.save("test.xlsx")
     elif choose == '3':
         ws3 = start.wb['marzec']
         sheet = start.wb.get_sheet_by_name('marzec')
@@ -83,7 +83,6 @@ def ford_completing():
 
 
 def skoda_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -96,7 +95,7 @@ def skoda_completing():
         z = input(f"{sheet.title.capitalize()} fuel start: ")
         ws1['E10'] = int(z)
     elif choose == '2':
-        #mth = start.ws['C5']
+        # mth = start.ws['C5']
         ws2 = start.wb1['luty']
         sheet = start.wb1.get_sheet_by_name('luty')
         print(f"You choose {sheet.title}")
@@ -167,7 +166,6 @@ def skoda_completing():
 
 
 def skoda_2_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -251,7 +249,6 @@ def skoda_2_completing():
 
 
 def fiat_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -335,7 +332,6 @@ def fiat_completing():
 
 
 def citroen_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -419,7 +415,6 @@ def citroen_completing():
 
 
 def daewoo_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -503,7 +498,6 @@ def daewoo_completing():
 
 
 def ford_2_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -587,7 +581,6 @@ def ford_2_completing():
 
 
 def ford_leasing_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -671,7 +664,6 @@ def ford_leasing_completing():
 
 
 def farmtrac_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -755,7 +747,6 @@ def farmtrac_completing():
 
 
 def ursus_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -839,7 +830,6 @@ def ursus_completing():
 
 
 def tym_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -923,7 +913,6 @@ def tym_completing():
 
 
 def unimog_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -1007,7 +996,6 @@ def unimog_completing():
 
 
 def unimog_2_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
@@ -1091,7 +1079,6 @@ def unimog_2_completing():
 
 
 def noremat_completing():
-    import start
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':

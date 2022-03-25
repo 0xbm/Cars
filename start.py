@@ -1,4 +1,4 @@
-from openpyxl import Workbook, load_workbook
+from openpyxl import load_workbook
 import os
 
 os.chdir("/Users/btn/PycharmProjects/pojazdy/2022")
