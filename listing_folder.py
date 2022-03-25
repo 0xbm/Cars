@@ -1,9 +1,10 @@
-import os
-import glob
-import re
+from openpyxl import load_workbook
 from natsort import natsorted
 import months
-from openpyxl import load_workbook
+import glob
+import os
+import re
+
 
 class DisplayMenu:
     def years_sort(self):
@@ -22,11 +23,11 @@ class DisplayMenu:
         choose = input("Choose year from: 1.2022, 2.2023: ")
         if choose == "1":
             os.chdir("/Users/btn/PycharmProjects/pojazdy/2022")
-            print("You chosed year: 2022")
+            print("You choosed year: 2022")
             t.cars_sort()
         if choose == "2":
             os.chdir("/Users/btn/PycharmProjects/pojazdy/2023")
-            print("You chosed year: 2023")
+            print("You choosed year: 2023")
             t.cars_sort()
 
     def cars_sort(self):
