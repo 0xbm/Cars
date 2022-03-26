@@ -1,5 +1,5 @@
 import start
-
+import paragons
 
 def ford_completing():
     choose = input("Choose month from 1-12: ")
@@ -12,12 +12,14 @@ def ford_completing():
         ws1['E8'] = int(y)
         z = input(f"{sheet.title.capitalize()} fuel start: ")
         ws1['E10'] = int(z)
+        paragons.paragons()
     elif choose == '2':
         ws2 = start.wb['luty']
         sheet = start.wb.get_sheet_by_name('luty')
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws2['E8'] = int(x)
+        paragons.paragons()
     elif choose == '3':
         ws3 = start.wb['marzec']
         sheet = start.wb.get_sheet_by_name('marzec')
