@@ -46,7 +46,6 @@ class DisplayMenu:
             months.fiat_completing()
         if choose == '5':
             print("You selected: ", files_sort[4])
-            wb = load_workbook("5.CITROEN JUMPER.xlsx")
         if choose == '6':
             print("You selected: ", files_sort[5])
             months.daewoo_completing()
