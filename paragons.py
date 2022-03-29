@@ -14,5 +14,4 @@ def paragons():
     cost1 = input("Enter a fuel cost: ")
     start.wb.active['E15'] = int(cost1)
 #TODO:czy trzeba robic po 10 zmiennych do kazdego miesiaca?
-#TODO:car sort to ma byc tylko sortowanie a nie wybor
 #TODO:funkcja w start , zobaczyc czy bedzie dzialac program na asmym `wb`
