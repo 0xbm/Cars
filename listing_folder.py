@@ -1,4 +1,4 @@
-from openpyxl import load_workbook
+#from openpyxl import load_workbook
 from natsort import natsorted
 import months
 import glob
@@ -7,7 +7,7 @@ import re
 
 
 class DisplayMenu:
-    def years_sort(self):
+    def sort_years(self):
         path = os.getcwd()
         folders_sort = ([name for name in os.listdir(path) if os.path.isdir(os.path.join(path, name))])
         folders_sort.reverse()
@@ -15,17 +15,17 @@ class DisplayMenu:
         print([folders_exception.sub("", x) for x in folders_sort])
 
     def choose_year(self):
-        choose = input("Choose year from: 1.2022, 2.2023: ")
+        choose = input("Choose year: 1.2022, 2.2023: ")
         if choose == "1":
-            os.chdir("/Users/btn/PycharmProjects/pojazdy/2022")
+            os.chdir("/Users/$USER/PycharmProjects/pojazdy/2022")
             print("You choosed year: 2022")
-            t.cars_sort()
+            t.choose_cars()
         if choose == "2":
-            os.chdir("/Users/btn/PycharmProjects/pojazdy/2023")
+            os.chdir("/Users/$USER/PycharmProjects/pojazdy/2023")
             print("You choosed year: 2023")
-            t.cars_sort()
+            t.choose_cars()
 
-    def cars_sort(self):
+    def choose_cars(self):
         path = (os.getcwd())
         files = [f for f in glob.glob(path + "**/*.xlsx", recursive=True)]
         folders_show = re.compile(r".*(/2022/|/2023/)")
@@ -74,12 +74,8 @@ class DisplayMenu:
             print("You selected: ", files_sort[11])
             months.noremat_completing()
 
-    def choose_car(self):
-        os.chdir("/Users/btn/PycharmProjects/pojazdy")
-        print(os.getcwd())
-        months.ford_completing()
-
 
 t = DisplayMenu()
 t.choose_year()
+
 
