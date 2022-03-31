@@ -18,7 +18,7 @@ fin = open("text_to_replace.py", "rt")
 #read file contents to string
 data = fin.read()
 #replace all occurrences of the required string
-data = data.replace('wb2', 'wb3')
+data = data.replace('wb12', 'wb13')
 #close the input file
 fin.close()
 #open the input file in write mode
