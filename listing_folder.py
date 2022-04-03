@@ -16,11 +16,11 @@ class DisplayMenu:
     def choose_year(self):
         choose = input("Choose year: 1.2022, 2.2023: ")
         if choose == "1":
-            os.chdir("/Users/btn/PycharmProjects/pojazdy/2022")
+            os.chdir("/Users/btn/PycharmProjects/cars/2022")
             print("You choosed year: 2022")
             t.choose_cars()
         if choose == "2":
-            os.chdir("/Users/btn/PycharmProjects/pojazdy/2023")
+            os.chdir("/Users/btn/PycharmProjects/cars/2023")
             print("You choosed year: 2023")
             t.choose_cars()
 
