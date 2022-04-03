@@ -108,7 +108,6 @@ def skoda_completing():
         ws1['E10'] = int(z)
         paragons.paragons_skoda()
     elif choose == '2':
-        # mth = start.ws['C5']
         ws2 = start.wb1['luty']
         sheet = start.wb1.get_sheet_by_name('luty')
         print(f"You choose {sheet.title}")
