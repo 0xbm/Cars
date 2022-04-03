@@ -1,4 +1,4 @@
-# pojazdy
+# cars
 This is the program to help me in my work. 
 Counts kilometers and calculates fuel in each month.
 To use the program you need to create directory and drop files into :
