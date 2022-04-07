@@ -4,6 +4,7 @@ import paragons
 def ford_completing():
     choose = input("Choose month from 1-12: ")
     if choose == '1':
+        start.wb.active = 0
         ws1 = start.wb['styczen']
         sheet = start.wb.get_sheet_by_name('styczen')
         x = input(f"{sheet.title.capitalize()} odometer start: ")
@@ -14,6 +15,7 @@ def ford_completing():
         ws1['E10'] = int(z)
         paragons.paragons_ford()
     elif choose == '2':
+        start.wb.active = 1
         ws2 = start.wb['luty']
         sheet = start.wb.get_sheet_by_name('luty')
         print(f"You choose {sheet.title}")
@@ -21,6 +23,7 @@ def ford_completing():
         ws2['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '3':
+        start.wb.active = 2
         ws3 = start.wb['marzec']
         sheet = start.wb.get_sheet_by_name('marzec')
         print(f"You choose {sheet.title}")
@@ -28,6 +31,7 @@ def ford_completing():
         ws3['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '4':
+        start.wb.active = 3
         ws4 = start.wb['kwiecien']
         sheet = start.wb.get_sheet_by_name('kwiecien')
         print(f"You choose {sheet.title}")
@@ -35,6 +39,7 @@ def ford_completing():
         ws4['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '5':
+        start.wb.active = 4
         ws5 = start.wb['maj']
         sheet = start.wb.get_sheet_by_name('maj')
         print(f"You choose {sheet.title}")
@@ -42,6 +47,7 @@ def ford_completing():
         ws5['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '6':
+        start.wb.active = 5
         ws6 = start.wb['czerwiec']
         sheet = start.wb.get_sheet_by_name('czerwiec')
         print(f"You choose {sheet.title}")
@@ -49,6 +55,7 @@ def ford_completing():
         ws6['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '7':
+        start.wb.active = 6
         ws7 = start.wb['lipiec']
         sheet = start.wb.get_sheet_by_name('lipiec')
         print(f"You choose {sheet.title}")
@@ -56,6 +63,7 @@ def ford_completing():
         ws7['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '8':
+        start.wb.active = 7
         ws8 = start.wb['sierpien']
         sheet = start.wb.get_sheet_by_name('sierpien')
         print(f"You choose {sheet.title}")
@@ -63,6 +71,7 @@ def ford_completing():
         ws8['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '9':
+        start.wb.active = 8
         ws9 = start.wb['wrzesien']
         sheet = start.wb.get_sheet_by_name('wrzesien')
         print(f"You choose {sheet.title}")
@@ -70,6 +79,7 @@ def ford_completing():
         ws9['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '10':
+        start.wb.active = 9
         ws10 = start.wb['pazdziernik']
         sheet = start.wb.get_sheet_by_name('pazdziernik')
         print(f"You choose {sheet.title}")
@@ -77,6 +87,7 @@ def ford_completing():
         ws10['E8'] = int(x)
         paragons.paragons_ford()
     elif choose == '11':
+        start.wb.active = 10
         ws11 = start.wb['listopad']
         sheet = start.wb.get_sheet_by_name('listopad')
         print(f"You choose {sheet.title}")
@@ -84,6 +95,7 @@ def ford_completing():
         ws11['E8'] = int(x)
         paragons.paragons_ford()
     else:
+        start.wb.active = 11
         ws12 = start.wb['grudzien']
         sheet = start.wb.get_sheet_by_name('grudzien')
         print(f"You choose {sheet.title}")
