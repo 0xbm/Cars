@@ -438,6 +438,16 @@ def citroen_completing():
         ws1['E8'] = int(y)
         z = input(f"{sheet.title.capitalize()} fuel start: ")
         ws1['E10'] = int(z)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws1['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '2':
         start.wb4.active = 1
@@ -446,6 +456,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws2['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws2['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '3':
         start.wb4.active = 2
@@ -454,6 +474,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws3['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws3['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '4':
         start.wb4.active = 3
@@ -462,6 +492,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws4['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws4['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '5':
         start.wb4.active = 4
@@ -470,6 +510,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws5['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws5['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '6':
         start.wb4.active = 5
@@ -478,6 +528,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws6['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws6['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '7':
         start.wb4.active = 6
@@ -486,6 +546,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws7['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws7['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '8':
         start.wb4.active = 7
@@ -494,6 +564,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws8['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws8['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '9':
         start.wb4.active = 8
@@ -502,6 +582,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws9['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws9['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '10':
         start.wb4.active = 9
@@ -510,6 +600,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws10['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws10['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     elif choose == '11':
         start.wb4.active = 10
@@ -518,6 +618,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws11['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws11['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
     else:
         start.wb4.active = 11
@@ -526,6 +636,16 @@ def citroen_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws12['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws12['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_citroen()
 
     start.wb4.save("5.CITROEN JUMPER.xlsx")
@@ -544,6 +664,16 @@ def daewoo_completing():
         ws1['E8'] = int(y)
         z = input(f"{sheet.title.capitalize()} fuel start: ")
         ws1['E10'] = int(z)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws1['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '2':
         start.wb5.active = 1
@@ -552,6 +682,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws2['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws2['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '3':
         start.wb5.active = 2
@@ -560,6 +700,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws3['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws3['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '4':
         start.wb5.active = 3
@@ -568,6 +718,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws4['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws4['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '5':
         start.wb5.active = 4
@@ -576,6 +736,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws5['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws5['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '6':
         start.wb5.active = 5
@@ -584,6 +754,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws6['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws6['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '7':
         start.wb5.active = 6
@@ -592,6 +772,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws7['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws7['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '8':
         start.wb5.active = 7
@@ -600,6 +790,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws8['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws8['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '9':
         start.wb5.active = 8
@@ -608,6 +808,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws9['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws9['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '10':
         start.wb5.active = 9
@@ -616,6 +826,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws10['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws10['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     elif choose == '11':
         start.wb5.active = 10
@@ -624,6 +844,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws11['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws11['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
     else:
         start.wb5.active = 11
@@ -632,6 +862,16 @@ def daewoo_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws12['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of km in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws12['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_daewoo()
 
     start.wb5.save("6.DAEWOO LUBLIN.xlsx")
@@ -862,6 +1102,16 @@ def farmtrac_completing():
         ws1['E8'] = int(y)
         z = input(f"{sheet.title.capitalize()} fuel start: ")
         ws1['E10'] = int(z)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws1['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '2':
         start.wb8.active = 1
@@ -870,6 +1120,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws2['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws2['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '3':
         start.wb8.active = 2
@@ -878,6 +1138,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws3['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws3['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '4':
         start.wb8.active = 3
@@ -886,6 +1156,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws4['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws4['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '5':
         start.wb8.active = 4
@@ -894,6 +1174,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws5['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws5['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '6':
         start.wb8.active = 5
@@ -902,6 +1192,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws6['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws6['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '7':
         start.wb8.active = 6
@@ -910,6 +1210,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws7['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws7['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '8':
         start.wb8.active = 7
@@ -918,6 +1228,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws8['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws8['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '9':
         start.wb8.active = 8
@@ -926,6 +1246,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws9['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws9['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '10':
         start.wb8.active = 9
@@ -934,6 +1264,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws10['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws10['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     elif choose == '11':
         start.wb8.active = 10
@@ -942,6 +1282,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws11['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws11['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
     else:
         start.wb8.active = 11
@@ -950,6 +1300,16 @@ def farmtrac_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws12['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 7
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 6
+            result = result_standard + result_additional
+            ws12['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_farmtrac()
 
     start.wb8.save("9.FARMTARAC.xlsx")
@@ -1180,6 +1540,17 @@ def unimog_completing():
         ws1['E8'] = int(y)
         z = input(f"{sheet.title.capitalize()} fuel start: ")
         ws1['E10'] = int(z)
+
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard+result_additional
+            ws1['E33']= int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '2':
         start.wb11.active = 1
@@ -1188,6 +1559,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws2['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws2['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '3':
         start.wb11.active = 2
@@ -1196,6 +1577,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws3['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws3['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '4':
         start.wb11.active = 3
@@ -1204,6 +1595,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws4['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws4['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '5':
         start.wb11.active = 4
@@ -1212,6 +1613,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws5['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws5['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '6':
         start.wb11.active = 5
@@ -1220,6 +1631,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws6['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws6['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '7':
         start.wb11.active = 6
@@ -1228,6 +1649,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws7['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws7['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '8':
         start.wb11.active = 7
@@ -1236,6 +1667,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws8['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws8['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '9':
         start.wb11.active = 8
@@ -1244,6 +1685,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws9['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws9['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '10':
         start.wb11.active = 9
@@ -1252,6 +1703,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws10['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws10['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     elif choose == '11':
         start.wb11.active = 10
@@ -1260,6 +1721,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws11['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws11['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
     else:
         start.wb11.active = 11
@@ -1268,6 +1739,16 @@ def unimog_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws12['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws12['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog()
 
     start.wb11.save("12.UNIMOG.xlsx")
@@ -1286,6 +1767,16 @@ def unimog_2_completing():
         ws1['E8'] = int(y)
         z = input(f"{sheet.title.capitalize()} fuel start: ")
         ws1['E10'] = int(z)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws1['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '2':
         start.wb12.active = 1
@@ -1294,6 +1785,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws2['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws2['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '3':
         start.wb12.active = 2
@@ -1302,6 +1803,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws3['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws3['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '4':
         start.wb12.active = 3
@@ -1310,6 +1821,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws4['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws4['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '5':
         start.wb12.active = 4
@@ -1318,6 +1839,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws5['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws5['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '6':
         start.wb12.active = 5
@@ -1326,6 +1857,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws6['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws6['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '7':
         start.wb12.active = 6
@@ -1334,6 +1875,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws7['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws7['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '8':
         start.wb12.active = 7
@@ -1342,6 +1893,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws8['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws8['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '9':
         start.wb12.active = 8
@@ -1350,6 +1911,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws9['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws9['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '10':
         start.wb12.active = 9
@@ -1358,6 +1929,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws10['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws10['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     elif choose == '11':
         start.wb12.active = 10
@@ -1366,6 +1947,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws11['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws11['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
     else:
         start.wb12.active = 11
@@ -1374,6 +1965,16 @@ def unimog_2_completing():
         print(f"You choose {sheet.title}")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
         ws12['E8'] = int(x)
+        question = input("whether the car was involved in additional works? y/n ")
+        if question == 'y':
+            fuel_ad_works = int(input("Number of mth in additional works: "))
+            result_additional = fuel_ad_works * 8
+            fuel_st_works = int(input("Number of mth in standard works: "))
+            result_standard = fuel_st_works * 7
+            result = result_standard + result_additional
+            ws12['E33'] = int(result)
+        else:
+            print("No")
         paragons.paragons_unimog_2()
 
     start.wb12.save("13.UNIMOG_2.xlsx")
