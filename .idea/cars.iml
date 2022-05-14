@@ -6,7 +6,5 @@
     </content>
     <orderEntry type="jdk" jdkName="Python 3.10 (cars)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="environmental_protection" />
-    <orderEntry type="module" module-name="exercise" />
   </component>
 </module>
