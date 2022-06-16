@@ -441,11 +441,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws1['E33'] = int(result)
+            ws1['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -459,11 +460,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws2['E33'] = int(result)
+            ws2['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -477,11 +479,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws3['E33'] = int(result)
+            ws3['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -495,11 +498,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws4['E33'] = int(result)
+            ws4['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -513,11 +517,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws5['E33'] = int(result)
+            ws5['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -531,11 +536,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws6['E33'] = int(result)
+            ws6['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -549,11 +555,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws7['E33'] = int(result)
+            ws7['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -567,11 +574,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws8['E33'] = int(result)
+            ws8['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -585,11 +593,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws9['E33'] = int(result)
+            ws9['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -603,11 +612,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws10['E33'] = int(result)
+            ws10['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -621,11 +631,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws11['E33'] = int(result)
+            ws11['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -639,11 +650,12 @@ def citroen_completing():
         question = input("whether the car was involved in additional works? y/n ")
         if question == 'y':
             fuel_ad_works = int(input("Number of km in additional works with car trailer: "))
-            result_additional = fuel_ad_works * 7
+            result_additional = fuel_ad_works * 0.12
+            print(result_additional)
             fuel_st_works = int(input("Number of km in standard works: "))
-            result_standard = fuel_st_works * 6
+            result_standard = fuel_st_works * 0.11
             result = result_standard + result_additional
-            ws12['E33'] = int(result)
+            ws12['E33'] = float(result)
         else:
             print("No")
         paragons.paragons_citroen()
@@ -1312,7 +1324,7 @@ def farmtrac_completing():
             print("No")
         paragons.paragons_farmtrac()
 
-    start.wb8.save("9.FARMTARAC.xlsx")
+    start.wb8.save("9.FARMTRAC.xlsx")
 
 
 def ursus_completing():
@@ -1421,7 +1433,7 @@ def ursus_completing():
     start.wb9.save("10.URSUS.xlsx")
 
 
-def tym_completing():
+def _completing():
     choose = input("Choose month from 1-12: ")
 
     if choose == '1':
