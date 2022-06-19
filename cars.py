@@ -75,5 +75,18 @@ class DisplayMenu:
             months.noremat_completing()
 
 
+def repeat():
+    print("ASDASDASDASD")
+    quit()
+    '''
+    while True:
+        message = input("Enter to continue, q to quit")
+        if message == "q":
+            break
+        t = DisplayMenu()
+        t.choose_year()
+    '''
+
+
 t = DisplayMenu()
 t.choose_year()
