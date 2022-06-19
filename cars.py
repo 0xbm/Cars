@@ -68,10 +68,10 @@ class DisplayMenu:
             print("You selected: ", files_sort[11])
             months.unimog_completing()
         if choose == '13':
-            print("You selected: ", files_sort[11])
+            print("You selected: ", files_sort[12])
             months.unimog_2_completing()
         if choose == '14':
-            print("You selected: ", files_sort[11])
+            print("You selected: ", files_sort[13])
             months.noremat_completing()
 
 
