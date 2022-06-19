@@ -2,7 +2,6 @@ import start
 
 
 def paragons_ford():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -758,7 +757,6 @@ def paragons_ford():
 
 
 def paragons_skoda():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -1514,7 +1512,6 @@ def paragons_skoda():
 
 
 def paragons_skoda_2():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -2270,7 +2267,6 @@ def paragons_skoda_2():
 
 
 def paragons_fiat():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -3026,7 +3022,6 @@ def paragons_fiat():
 
 
 def paragons_citroen():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -3782,7 +3777,6 @@ def paragons_citroen():
 
 
 def paragons_daewoo():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -4538,7 +4532,6 @@ def paragons_daewoo():
 
 
 def paragons_ford_2():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -5294,7 +5287,6 @@ def paragons_ford_2():
 
 
 def paragons_ford_leasing():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -6050,7 +6042,6 @@ def paragons_ford_leasing():
 
 
 def paragons_farmtrac():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -6806,7 +6797,6 @@ def paragons_farmtrac():
 
 
 def paragons_ursus():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -7562,7 +7552,6 @@ def paragons_ursus():
 
 
 def paragons_tym():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -8318,7 +8307,6 @@ def paragons_tym():
 
 
 def paragons_unimog():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -9074,7 +9062,6 @@ def paragons_unimog():
 
 
 def paragons_unimog_2():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")
@@ -9830,7 +9817,6 @@ def paragons_unimog_2():
 
 
 def paragons_noremat():
-
     choose = input("Number of paragons: ")
     if choose == '1':
         date = input("Enter a date of tank: ")

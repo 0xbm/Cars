@@ -1559,7 +1559,7 @@ def unimog_completing():
             result_additional = fuel_ad_works * 8
             fuel_st_works = int(input("Number of mth in standard works: "))
             result_standard = fuel_st_works * 7
-            result = result_standard+result_additional
+            result = result_standard + result_additional
             ws1['E33'] = int(result)
         else:
             print("No")
