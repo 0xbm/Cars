@@ -88,5 +88,13 @@ def repeat():
     '''
 
 
-t = DisplayMenu()
-t.choose_year()
+#t = DisplayMenu()
+#t.choose_year()
+
+while True:
+    message = input("Enter to continue, q to quit")
+    if message == "q":
+        break
+    else:
+        t = DisplayMenu()
+        t.choose_year()
