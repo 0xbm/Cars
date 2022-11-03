@@ -1,7 +1,8 @@
 from openpyxl import load_workbook
 import os
 
-os.chdir("/Users/btn/PycharmProjects/cars/2022")
+path = input("Podaj sciezke do 2022: ")
+os.chdir(path)
 
 wb = load_workbook("1.FORD COURIER.xlsx")
 wb1 = load_workbook("2.SKODA FABIA.xlsx")
