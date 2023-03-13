@@ -174,7 +174,7 @@ def skoda_completing():
         ws10["E8"] = int(x)
         paragons.paragons_skoda()
     elif choose == "11":
-        start.wb.active = 10
+        start.wb1.active = 10
         ws11 = start.wb1["listopad"]
         sheet = start.wb1.get_sheet_by_name("listopad")
         x = input(f"{sheet.title.capitalize()} odometer end: ")
